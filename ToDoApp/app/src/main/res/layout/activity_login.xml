@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="100dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="100dp"
+    android:background="#E8E6E6"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:src="@drawable/guy" />
+
+    <EditText
+        android:id="@+id/edtUserNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="UserName" />
+
+    <EditText
+        android:id="@+id/edtPasswordID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnLoginID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#1D9AF8"
+        android:text="LOGIN" />
+
+
+
+</LinearLayout>
